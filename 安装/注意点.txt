@@ -1,0 +1,18 @@
+
+
+1. 在项目根目录里
+
+chmod 777 public -R
+chmod 777 store -R
+
+
+2. 在项目目录下
+php artisan serve
+
+启动php自带的服务器
+
+3、设置一个唯一秘钥
+
+php artisan key:generate
+
+
